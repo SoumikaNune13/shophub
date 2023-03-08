@@ -1,0 +1,51 @@
+/* NavBar */
+Nav a {
+    color: #D35400;
+    text-decoration: none;
+  }
+
+#collasible-nav-dropdown{
+    color: #C0AA13
+}
+
+/* Product listing style */
+.main-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 60px;
+    padding: 20px 0px;
+   
+}
+.card{
+    padding: 20px;
+    text-align: center;
+    width: 17em;
+    align-items: center;
+    margin-left: 55px;
+    box-shadow: 2px 5px 20px grey;
+}
+
+
+/* add to cart style */
+.cart_container{
+    display: flex;
+    margin-left: 50px ;
+    border: 1px solid #D35400;
+    padding:10px 20px;
+    border-radius: 20px;
+    background-color:#FEF9E7;
+    width: 45em;
+
+}
+.cart_img{
+    display: inline-block;
+}
+.cart_img > img{
+    width: 90px;
+    padding: 10px;
+    
+} 
+.cart_text{
+    margin: 10px;
+    color: #5D6D7E
+}
